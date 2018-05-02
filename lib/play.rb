@@ -36,9 +36,10 @@ def turn(board)
 end
 
 def play(board)
+  turn(0)
   loop do
     counter = 0
-    until position_taken?(board, index)
+    while counter <=9
       turn(board)
       counter += 1
     end
