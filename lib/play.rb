@@ -36,22 +36,15 @@ def turn(board)
 end
 
 def play(board)
-    turn = 0
-    while index <= 9
-      loop do
-        counter = 0
-        turn(board)
-        counter += 1
-      end
+  turn = 0
+  while index <= 9
+    loop do
+     counter = 0
+      turn(board)
+      counter += 1
+    end
     if counter >= 10
       break
     end
-  end
-end
-
-def play(board)
-  turn = 0
-  while // Comparison
-    // Rest of your code
   end
 end
